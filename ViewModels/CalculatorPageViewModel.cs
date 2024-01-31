@@ -1,6 +1,4 @@
 ﻿
-using Windows.Security.Cryptography.Core;
-
 namespace ViewModels
 {
     [INotifyPropertyChanged]

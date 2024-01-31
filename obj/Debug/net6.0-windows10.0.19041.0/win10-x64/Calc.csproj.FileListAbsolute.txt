@@ -576,3 +576,10 @@ C:\Users\opilane\source\repos\Calc\bin\Debug\net6.0-windows10.0.19041.0\win10-x6
 C:\Users\opilane\source\repos\Calc\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Power.winmd
 C:\Users\opilane\source\repos\Calc\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.winmd
 C:\Users\opilane\source\repos\Calc\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml.Controls.pri
+C:\Users\opilane\source\repos\Calc\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Cairo-ExtraLight.ttf
+C:\Users\opilane\source\repos\Calc\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Cairo-Light.ttf
+C:\Users\opilane\source\repos\Calc\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Antlr4.Runtime.Standard.dll
+C:\Users\opilane\source\repos\Calc\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
+C:\Users\opilane\source\repos\Calc\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\NCalc.dll
+C:\Users\opilane\source\repos\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Cairo-ExtraLight.ttf
+C:\Users\opilane\source\repos\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\Cairo-Light.ttf

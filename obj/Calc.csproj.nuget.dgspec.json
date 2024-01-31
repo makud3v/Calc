@@ -82,14 +82,6 @@
             "NCalcSync": {
               "target": "Package",
               "version": "[3.10.0, )"
-            },
-            "System.ObjectModel": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            },
-            "ncalc": {
-              "target": "Package",
-              "version": "[1.3.8, )"
             }
           },
           "imports": [
@@ -205,18 +197,10 @@
               "target": "Package",
               "version": "[3.10.0, )"
             },
-            "System.ObjectModel": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
               "version": "[6.0.1, )",
               "autoReferenced": true
-            },
-            "ncalc": {
-              "target": "Package",
-              "version": "[1.3.8, )"
             }
           },
           "imports": [
@@ -308,18 +292,10 @@
               "target": "Package",
               "version": "[3.10.0, )"
             },
-            "System.ObjectModel": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
               "version": "[6.0.1, )",
               "autoReferenced": true
-            },
-            "ncalc": {
-              "target": "Package",
-              "version": "[1.3.8, )"
             }
           },
           "imports": [
@@ -411,14 +387,6 @@
             "NCalcSync": {
               "target": "Package",
               "version": "[3.10.0, )"
-            },
-            "System.ObjectModel": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            },
-            "ncalc": {
-              "target": "Package",
-              "version": "[1.3.8, )"
             }
           },
           "imports": [

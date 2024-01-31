@@ -50,7 +50,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
 	  <PackageReference Include="Microsoft.UI.Xaml" Version="2.8.2" />
+	  <PackageReference Include="NCalcSync" Version="3.10.0" />
 	</ItemGroup>
 
 	<ItemGroup>

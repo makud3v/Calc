@@ -1,4 +1,5 @@
-﻿using CommunityToolkit.Mvvm.Input;
+﻿
+using Windows.Security.Cryptography.Core;
 
 namespace ViewModels
 {
@@ -53,10 +54,75 @@ namespace ViewModels
         {
             Dictionary<string, string> _opMapper = new()
             {
-                
+                {"×", "*"},
+                {"÷", "/" },
+                {"SIN", "Sin" },
+                {"COS", "Cos" },
+                {"TAN", "Tan" },
+                {"ASIN", "asin" },
+                {"ACOS", "acos" },
+                {"ATAN", "atan" },
+                {"LOG", "Log" },
+                {"EXP", "Exp" },
+                {"LOG10", "Log10" },
+                {"POW", "Pow" },
+                {"SQRT", "Sqrt" },
+                {"ABS", "Abs" },
             };
 
-            return null;
+            var retString = InputText;
+
+            foreach (var key in _opMapper.Keys)
+            {
+                retString = retString.Replace(key, _opMapper[key]);
+            }
+            return retString;
+        }
+
+        [RelayCommand]
+        private void Backspace() 
+        { 
+            if (InputText.Length > 0)
+            {
+                InputText = InputText.Substring(0, InputText.Length - 1);
+            }
+        }
+
+        [RelayCommand]
+        private void NumberInput(string key)
+        {
+            InputText += key;
+        }
+
+        [RelayCommand]
+        private void MathOperator(string op)
+        {
+            if (isSciOpWaiting)
+            {
+                InputText += ")";
+                isSciOpWaiting = false;
+            }
+
+            InputText += $" {op} ";
+        }
+
+        [RelayCommand]
+        private void RegionOperator(string op)
+        {
+            if (op == ")")
+            {
+                isSciOpWaiting = false;
+            }
+
+            InputText += op;
+
+        }
+
+        [RelayCommand]
+        private void ScientificOperator(string op) 
+        {
+            InputText += $"{op}(";
+            isSciOpWaiting = true;
         }
     }
 }

@@ -9,9 +9,11 @@
     ".NETCoreApp,Version=v6.0/win10-x64": {
       "Calc/1.0": {
         "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
           "Microsoft.Maui.Dependencies": "6.0.553",
           "Microsoft.Maui.Extensions": "6.0.553",
           "Microsoft.UI.Xaml": "2.8.2",
+          "NCalcSync": "3.10.0",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "6.0.21",
           "runtimepack.Microsoft.Maui.Core.Runtime.win": "6.0.553",
           "runtimepack.Microsoft.Maui.Controls.Runtime.win": "6.0.553",
@@ -903,6 +905,22 @@
           }
         }
       },
+      "Antlr4.Runtime.Standard/4.13.1": {
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "assemblyVersion": "4.13.1.0",
+            "fileVersion": "4.13.1.0"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "assemblyVersion": "8.2.0.0",
+            "fileVersion": "8.2.2.1"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/6.0.1": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
@@ -1129,6 +1147,17 @@
           }
         }
       },
+      "NCalcSync/3.10.0": {
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.13.1"
+        },
+        "runtime": {
+          "lib/net6.0/NCalc.dll": {
+            "assemblyVersion": "3.10.0.0",
+            "fileVersion": "3.10.0.8"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -1167,6 +1196,20 @@
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
+    },
+    "Antlr4.Runtime.Standard/4.13.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Da5+i4kFHUseJRZGcBG5fmZGpA/Ns180ibrQMxgZzjpQOnENVvSL5gi5HZ8Ncz8/AR2WsKbOg2lMBzjz0HUQcA==",
+      "path": "antlr4.runtime.standard/4.13.1",
+      "hashPath": "antlr4.runtime.standard.4.13.1.nupkg.sha512"
+    },
+    "CommunityToolkit.Mvvm/8.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r0g0k9tGYdrnz8R7T3x5UiokDffeevzK/2P/9SBL6fqLgN8B157MIi/bVUWI1KAz6ZorZrK9AdABCWUeXZZsvA==",
+      "path": "communitytoolkit.mvvm/8.2.2",
+      "hashPath": "communitytoolkit.mvvm.8.2.2.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/6.0.1": {
       "type": "package",
@@ -1286,6 +1329,13 @@
       "sha512": "sha512-gGeFfN1AQiIo6DaPe4KkOvlx/EDjwq/Lc+Q3EzX+U4x/hsiZkls/XqFpNTjELyYgsxl8g0SiPzguJ7A1dlhC6Q==",
       "path": "microsoft.windowsappsdk/1.1.5",
       "hashPath": "microsoft.windowsappsdk.1.1.5.nupkg.sha512"
+    },
+    "NCalcSync/3.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yC4m71HXWUnv3FqoXJtFtFCFEZs4YNr2VtdjHPE9ySwP8oKPwmiMpdjnrGXy8ayCosKS+VpvXJswhIMpiFSpug==",
+      "path": "ncalcsync/3.10.0",
+      "hashPath": "ncalcsync.3.10.0.nupkg.sha512"
     },
     "System.Diagnostics.DiagnosticSource/6.0.0": {
       "type": "package",
